@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Boostrap Table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Boostrap Table</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <div class="row">
+                    <div class="col-md-7 pt-4 text-right">
+                        <label for="search"></label>
+                    </div>
+                    <div class="col-md-1 pt-4">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="col-md-1 pt-4">
+                        <label for  ="search"></label>
+                    </div>
+                    <div class="col-md-3 pt-4">
+                        <input type="text" placeholder="">
+                    </div>
+                <thead>
+                    <tr style=text-align:center>
+                        <th></th>
+                        <th>IMAGE</th>
+                        <th>CRN</th>
+                        <th>SUBJ</th>
+                        <th>CRSE</th>
+                        <th>CRSE</th>
+                        <th>TITLE</th>
+                        <th>DAY</th>
+                        <th>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-clock-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            </svg>
+                        </th>
+                        <th>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-video3" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2Z" />
+                                <path
+                                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783.059-.187.09-.386.09-.593V4a2 2 0 0 0-2-2H2Z" />
+                            </svg>
+                        </th>
+                        <th>ATTRIB</th>
+                        <th>Difculty(?)</th>
+                        <th>Rating(?)</th>
+                        <th>WTA(?)</th>
+                        <th>COMMENT</th>
+                    </tr>
+                </thead>
+                  <tbody style=text-align:center>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green"
+                                class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                            </svg>
+                        </td>
+                        <td>
+                            <img class="card-img-top"
+                                src="https://photo-baomoi.bmcdn.me/w700_r1/2021_10_31_304_40735796/577fbd90fad2138c4ac3.jpg"
+                                alt="Card image" width="50" height="50">
+                        </td>
+                        <td>13495</td>
+                        <td>ACC</td>
+                        <td>1001</td>
+                        <td>3.000</td>
+                        <td>Accounting Principles</td>
+                        <td>MW</td>
+                        <td>01:30pm-02-45pm</td>
+                        <td>Francine Mellors-Rothenstein</td>
+                        <td></td>
+                        <td>
+                            <h6 style=text-align:center>%</h6>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:0%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>%</h6>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:0%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>%</h6>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:0%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="container mt-3">
+                                <button type="button" class="btn btn-primary">Instructor Comments</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green"
+                                class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                            </svg>
+                        </td>
+                        <td>
+                             <img class="card-img-top"
+                                src="https://photo-baomoi.bmcdn.me/w700_r1/2021_10_31_304_40735796/577fbd90fad2138c4ac3.jpg"
+                                alt="Card image" width="50" height="50">
+                        </td>
+                        <td>13532</td>
+                        <td>ACC</td>
+                        <td>1001</td>
+                        <td>3.000</td>
+                        <td>Accounting Principles</td>
+                        <td>MW</td>
+                        <td>03:00pm-04-15pm</td>
+                        <td>Joseph John Kestein</td>
+                        <td></td>
+                        <td>
+                            <h6 style=text-align:center>48%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:48%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>90%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:90%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>100%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:100%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="container mt-3">
+                                <button type="button" class="btn btn-primary">Instructor Comments</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green"
+                                class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                            </svg>
+                        </td>
+                        <td>
+                            <img class="card-img-top"
+                                src="https://photo-baomoi.bmcdn.me/w700_r1/2021_10_31_304_40735796/577fbd90fad2138c4ac3.jpg"
+                                alt="Card image" width="50" height="50">
+                        </td>
+                        <td>13513</td>
+                        <td>ACC</td>
+                        <td>1001</td>
+                        <td>3.000</td>
+                        <td>Accounting Principles</td>
+                        <td>MW</td>
+                        <td>04:30pm-04-45pm</td>
+                        <td>Jim Resnik</td>
+                        <td></td>
+                        <td>
+                            <h6 style=text-align:center>58%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width:58%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>56%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width:56%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>86%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:86%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="container mt-3">
+                                <button type="button" class="btn btn-primary">Instructor Comments</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green"
+                                class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                            </svg>
+                        </td>
+                        <td>
+                            <img class="card-img-top"
+                                src="https://photo-baomoi.bmcdn.me/w700_r1/2021_10_31_304_40735796/577fbd90fad2138c4ac3.jpg"
+                                alt="Card image" width="50" height="50">
+                        </td>
+                        <td>13558</td>
+                        <td>ACC</td>
+                        <td>1001</td>
+                        <td>3.000</td>
+                        <td>Accounting Principles</td>
+                        <td>MW</td>
+                        <td>6:45pm-8:00pm</td>
+                        <td>Constance J.Crawford</td>
+                        <td></td>
+                        <td>
+                            <h6 style=text-align:center>28%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:28%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>90%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:90%"></div>
+                            </div>
+                        </td>
+                        <td>
+                         <h6 style=text-align:center>83%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:83%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="container mt-3">
+                                <button type="button" class="btn btn-primary">Instructor Comments</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green"
+                                class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                            </svg>
+                        </td>
+                        <td>
+                            <img class="card-img-top"
+                                src="https://photo-baomoi.bmcdn.me/w700_r1/2021_10_31_304_40735796/577fbd90fad2138c4ac3.jpg"
+                                alt="Card image" width="50" height="50">
+                        </td>
+                        <td>13496</td>
+                        <td>ACC</td>
+                        <td>1001</td>
+                        <td>3.000</td>
+                        <td>Accounting Principles</td>
+                        <td>TR</td>
+                        <td>03:00pm-04:15pm</td>
+                        <td>Leonard Fuld</td>
+                        <td></td>
+                        <td>
+                            <h6 style=text-align:center>46%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:46%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>92%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:92%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <h6 style=text-align:center>100%</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width:100%"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="container mt-3">
+                                <button type="button" class="btn btn-primary">Instructor Comments</button>
+                            </div>
+                        </td>
+                    </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
